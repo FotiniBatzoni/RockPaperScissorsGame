@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font Awesome -->
+    <!-- <script src="https://kit.fontawesome.com/0586361dda.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Paper Rock Scissors Game</title>
+</head>
+
+<body>
+    <div class="includeAll">
+
+        <h1>Rock Paper Scissors Game</h1>
+        <div class="container">
+            <div class="left">
+                <h2>You</h2>
+                <form id="form">
+                    <label for="rock">
+                        <input class="input" type="radio" id="rock" name="choice" value="rock" >
+                        Rock</label>
+                    <label for="paper">
+                        <input class="input" type="radio" id="paper" name="choice" value="paper">
+                        Paper</label>
+
+                    <label for="scissors">
+                        <input class="input" type="radio" id="scissors" name="choice" value="scissors">
+                        Scissors</label>
+                </form>
+          
+             <p id="yourScore">Your score:<span id="yScore">0</span></p>
+            </div>
+
+            <div class="right">
+                <h2>PC</h2>
+                <div id="secretValue">?</div>
+                <p id="pcScore">Pc score:<span id="pScore">0</span></p>
+            </div>
+           
+        </div>
+        <div id="result">
+            <p></p>
+        </div>
+    
+        <div>
+            <button id="again">Again</button>
+        </div>
+      
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
